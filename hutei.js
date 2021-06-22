@@ -37,7 +37,10 @@ document.getElementById("hutei").addEventListener("click",function (){
     
     let y;
     
-    while (i !== 2){
+    if(i<2){
+        z = r[0];
+        w = q2[0];
+    }else{
         y = z;
         z = w;
         w = y;
